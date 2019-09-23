@@ -15,10 +15,16 @@ namespace OOPLabbar.Lab6
             Age = age;
             Weight = weight;
         }
-        public string Name { get; set; }
-        public string Type { get; set; }
-        public int Age { get; set; }
-        public int Weight { get; set; }
+
+        public string Name { get; }
+        public string Type { get; }
+        public int Age { get; private set; }
+        public void AddOneYear()
+        {
+            this.Age += 1;
+        }
+        public int Weight { get; }
+
 
         internal decimal GetTailLength()
         {

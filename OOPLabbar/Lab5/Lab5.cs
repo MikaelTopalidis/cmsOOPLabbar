@@ -46,6 +46,8 @@ namespace OOPLabbar.Lab5
                 Telefon = "08-1213132123"
             };
 
+
+
             teacher.AddKurs(kurs);
             teacher.AddKurs(annanKurs);
             student1.AddKurs(kurs);

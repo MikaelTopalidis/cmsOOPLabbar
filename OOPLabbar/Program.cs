@@ -10,6 +10,9 @@ namespace OOPLabbar
     {
         static void Main(string[] args)
         {
+            var lab4 = new Lab4.Lab4();
+            lab4.Run();
+
             var lab6 = new Lab6.Lab6();
             lab6.Run();
 
@@ -22,8 +25,6 @@ namespace OOPLabbar
             lab2.Run();
             var lab3 = new Lab3.Lab3();
             lab3.Run();
-            var lab4 = new Lab4.Lab4();
-            lab4.Run();
 
             Console.ReadLine();
 

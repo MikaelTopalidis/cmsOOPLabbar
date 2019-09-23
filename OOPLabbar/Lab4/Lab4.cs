@@ -9,6 +9,7 @@ namespace OOPLabbar.Lab4
     class Lab4
     {
         Library library = new Library();
+
         public void Run()
         {
             while(true)

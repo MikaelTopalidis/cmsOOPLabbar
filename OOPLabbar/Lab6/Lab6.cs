@@ -14,7 +14,7 @@ namespace OOPLabbar.Lab6
             var quit = false;
             while (!quit)
             {
-                Console.WriteLine(@"1. Registrera");
+                Console.WriteLine("1. Registrera");
                 Console.WriteLine("2. Lista");
                 Console.WriteLine("3. Ta bort");
                 Console.WriteLine("4. Avsluta");
@@ -52,6 +52,8 @@ namespace OOPLabbar.Lab6
             Console.WriteLine("Ta bort");
             Console.Write("Ange namn->");
             var dog = FindDogByName(Console.ReadLine());
+
+
             if (dog == null)
                 Console.WriteLine("Hund med det namnet fanns ej i registret");
             else
